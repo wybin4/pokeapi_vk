@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/list_pokemon">
+
+    <fragment
+        android:id="@+id/list_pokemon"
+        android:name="com.vk.usersapp.feature.feed.ui.list.PokemonListView"
+        android:label="@string/title_nav_pokemons"
+        tools:layout="@layout/pokemon_list">
+        <action
+            android:id="@+id/action_PokemonListView_to_PokemonGetView"
+            app:destination="@id/get_pokemon" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/get_pokemon"
+        android:name="com.vk.usersapp.feature.feed.ui.get.PokemonGetView"
+        android:label="@string/title_nav_pokemons"
+        tools:layout="@layout/pokemon_get">
+        <action
+            android:id="@+id/action_pokemonGetView_to_pokemonListView"
+            app:destination="@id/list_pokemon" />
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

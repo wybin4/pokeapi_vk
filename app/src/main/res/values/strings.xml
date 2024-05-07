@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="title_nav_pokemons">Pokemons</string>
+    <string name="description_nav_pokemons">All the Pokémon data you\'ll ever need in one place</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="centimetre">cm</string>
+    <string name="kilogram">kg</string>
+</resources>

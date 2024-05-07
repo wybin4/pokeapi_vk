@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Покемонная</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="title_nav_pokemons">Покемоны</string>
+    <string name="description_nav_pokemons">Здесь представлены все покемоны, которые могут быть полезны для вас</string>
+    <string name="weight">Вес</string>
+    <string name="height">Рост</string>
+    <string name="centimetre">см</string>
+    <string name="kilogram">кг</string>
+</resources>
